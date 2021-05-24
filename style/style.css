@@ -38,3 +38,49 @@ body {
 .footer-style {
     bottom: 0;
 }
+
+.content-btn-circle {
+    background: #664FF0;
+    box-shadow: 0px 0px 32px rgba(173, 11, 250, 0.5), inset 0px 0px 18px 11px rgba(0, 0, 0, 0.4);
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+}
+
+.content-global-carrousel {
+    width: 708px;
+}
+
+.img-carrousel {
+    width: 708px;
+    height: 350px;
+}
+
+.title-song-content {
+    background-color: rgba(0, 0, 0, 0.308);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.title-song {
+    color: #fff;
+    font-size: 28px;
+}
+
+h2 {
+    margin: 0;
+}
+
+
+.content-btons {
+    width: 708px;
+    bottom: 0;
+}
+
+.audio-content {
+    height: 50px;
+    width: 300px;
+    z-index: 2;
+    left: 204.5px;
+    bottom: 0;
+}

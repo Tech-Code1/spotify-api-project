@@ -14,7 +14,7 @@
 		<title>Living</title>
 	</head>
 	<body>
-		<header class="header-style">
+		<header class="header-style mb-5">
 			<div
 				class="
 					d-flex
@@ -42,42 +42,89 @@
 			</div>
 		</header>
 
-		<main>
+		<main class="d-flex justify-content-center">
 			<div
 				id="carouselExampleControlsNoTouching"
-				class="carousel slide"
+				class="carousel slide content-global-carrousel d-flex mt-5 position-relative"
 				data-bs-touch="false"
 				data-bs-interval="false"
 			>
 				<div class="carousel-inner">
-					<div class="carousel-item active">
-						<img src="..." class="d-block w-100" alt="..." />
+					<div class="carousel-item active px-5">
+						<div class="title-song-content text-center">
+							<h2 class="title-song py-2">titulo canción 1</h2>
+							<audio
+							class="d-flex position-absolute audio-content position-absolute"
+							src="audio/audio1.mp3"
+							controls
+						>
+						</div>
+						<img src="img/jpg/img 1.png" class="img-carrousel w-100" alt="..." />
+						
+							<source src="audio/audio1.mp3" />
+						</audio>
 					</div>
-					<div class="carousel-item">
-						<img src="..." class="d-block w-100" alt="..." />
+					<div class="carousel-item px-5">
+						<div class="title-song-content text-center">
+							<h2 class="title-song py-2">titulo canción 2</h2>
+							<audio
+							class="d-flex position-absolute audio-content position-absolute"
+							src="audio/audio1.mp3"
+							controls
+						>
+						</div>
+						<img src="img/jpg/img 2.png" class="img-carrousel w-100" alt="..." />
 					</div>
-					<div class="carousel-item">
-						<img src="..." class="d-block w-100" alt="..." />
+					<div class="carousel-item text-center px-5">
+						<div class="title-song-content">
+							<h2 class="title-song py-2">titulo canción 3</h2>
+							<audio
+							class="d-flex position-absolute audio-content position-absolute"
+							src="audio/audio1.mp3"
+							controls
+						>
+						</div>
+						<img src="img/jpg/img 3.png" class="img-carrousel w-100" alt="..." />
 					</div>
 				</div>
-				<button
-					class="carousel-control-prev"
-					type="button"
-					data-bs-target="#carouselExampleControlsNoTouching"
-					data-bs-slide="prev"
-				>
-					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-					<span class="visually-hidden">Previous</span>
-				</button>
-				<button
-					class="carousel-control-next"
-					type="button"
-					data-bs-target="#carouselExampleControlsNoTouching"
-					data-bs-slide="next"
-				>
-					<span class="carousel-control-next-icon" aria-hidden="true"></span>
-					<span class="visually-hidden">Next</span>
-				</button>
+
+				<div class="d-flex position-absolute content-btons">
+					<button
+						class="carousel-control-prev"
+						type="button"
+						data-bs-target="#carouselExampleControlsNoTouching"
+						data-bs-slide="prev"
+					>
+						<span
+							class="
+								d-flex
+								justify-content-center
+								align-items-center
+								content-btn-circle
+							"
+							><img src="svg/previus.svg" alt="Botón Previus"
+						/></span>
+						<span class="visually-hidden">Previous</span>
+					</button>
+					<button
+						class="carousel-control-next"
+						type="button"
+						data-bs-target="#carouselExampleControlsNoTouching"
+						data-bs-slide="next"
+					>
+						<span
+							class="
+								d-flex
+								justify-content-center
+								align-items-center
+								content-btn-circle
+							"
+							aria-hidden="true"
+							><img src="svg/next.svg" alt="Botón next"
+						/></span>
+						<span class="visually-hidden">Next</span>
+					</button>
+				</div>
 			</div>
 		</main>
 
