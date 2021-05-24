@@ -4,10 +4,15 @@
     box-sizing: border-box;
 }
 
+body {
+    height: 100vh;
+    background: linear-gradient(180deg, #7B0BA3 28.98%, #3200C0 100%);
+}
+
 
 .img-header {
     background: url(../img/jpg/img-living-header.jpg);
-    height: 400px;
+    height: 350px;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -28,4 +33,8 @@
     font-size: 18px;
     color: #fff;
     line-height: 161.69%;
+}
+
+.footer-style {
+    bottom: 0;
 }
