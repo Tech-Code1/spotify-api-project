@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.img-header {
+    background: url(../img/jpg/img-living-header.jpg);
+    height: 400px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 24px;
+}
+
+.svg-title-header {
+    margin-bottom: 100px;
+    height: 95.34px;
+    width: 386px;
+}
+
+.paragraph-style-header {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #fff;
+    line-height: 161.69%;
+}
