@@ -20,10 +20,28 @@ body {
     padding: 24px;
 }
 
+.img-footer {
+    background: url(../img/png/footer-content.png);
+    height: 181px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    bottom: 0;
+}
+
 .svg-title-header {
     margin-bottom: 100px;
     height: 95.34px;
-    width: 386px;
+    width: 256px;
+}
+
+@media (max-width: 1213px) {
+    .svg-title-header  {
+        height: 63.23px;
+        width: 386px;
+        margin-bottom: 50px;
+    }
 }
 
 .paragraph-style-header {
@@ -33,6 +51,16 @@ body {
     font-size: 18px;
     color: #fff;
     line-height: 161.69%;
+}
+
+p {
+    margin: 0;
+}
+
+@media (max-width: 1213px) {
+    .paragraph-style-header  {
+        font-size: 16px;
+    }
 }
 
 .footer-style {
@@ -73,14 +101,14 @@ h2 {
 
 
 .content-btons {
-    width: 708px;
+    width: 100%;
     bottom: 0;
 }
 
 .audio-content {
     height: 50px;
-    width: 300px;
+    width: 100%;
     z-index: 2;
-    left: 204.5px;
     bottom: 0;
+    padding: 0 100px;
 }

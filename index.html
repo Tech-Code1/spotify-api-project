@@ -25,7 +25,7 @@
 				"
 			>
 				<img
-					class="svg-title-header"
+					class="svg-title-header img-fluid"
 					src="svg/icon-title-group.svg"
 					alt="Icono Grupo living"
 				/>
@@ -45,12 +45,12 @@
 		<main class="d-flex justify-content-center">
 			<div
 				id="carouselExampleControlsNoTouching"
-				class="carousel slide content-global-carrousel d-flex mt-5 position-relative"
+				class="carousel slide content-global-carrousel d-flex mt-5"
 				data-bs-touch="false"
 				data-bs-interval="false"
 			>
-				<div class="carousel-inner">
-					<div class="carousel-item active px-5">
+				<div class="carousel-inner d-flex mx-5">
+					<div class="carousel-item active">
 						<div class="title-song-content text-center">
 							<h2 class="title-song py-2">titulo canción 1</h2>
 							<audio
@@ -59,12 +59,12 @@
 							controls
 						>
 						</div>
-						<img src="img/jpg/img 1.png" class="img-carrousel w-100" alt="..." />
+						<img src="img/jpg/img 1.png" class="img-carrousel w-100 img-fluid" alt="..." />
 						
 							<source src="audio/audio1.mp3" />
 						</audio>
 					</div>
-					<div class="carousel-item px-5">
+					<div class="carousel-item">
 						<div class="title-song-content text-center">
 							<h2 class="title-song py-2">titulo canción 2</h2>
 							<audio
@@ -73,9 +73,9 @@
 							controls
 						>
 						</div>
-						<img src="img/jpg/img 2.png" class="img-carrousel w-100" alt="..." />
+						<img src="img/jpg/img 2.png" class="img-carrousel w-100 img-fluid" alt="..." />
 					</div>
-					<div class="carousel-item text-center px-5">
+					<div class="carousel-item text-center">
 						<div class="title-song-content">
 							<h2 class="title-song py-2">titulo canción 3</h2>
 							<audio
@@ -84,13 +84,13 @@
 							controls
 						>
 						</div>
-						<img src="img/jpg/img 3.png" class="img-carrousel w-100" alt="..." />
+						<img src="img/jpg/img 3.png" class="img-carrousel w-100 img-fluid" alt="..." />
 					</div>
 				</div>
 
-				<div class="d-flex position-absolute content-btons">
+				<div class="d-flex position-absolute content-btons w-100">
 					<button
-						class="carousel-control-prev"
+						class="carousel-control-prev mx-4"
 						type="button"
 						data-bs-target="#carouselExampleControlsNoTouching"
 						data-bs-slide="prev"
@@ -107,7 +107,7 @@
 						<span class="visually-hidden">Previous</span>
 					</button>
 					<button
-						class="carousel-control-next"
+						class="carousel-control-next mx-4"
 						type="button"
 						data-bs-target="#carouselExampleControlsNoTouching"
 						data-bs-slide="next"
@@ -128,8 +128,8 @@
 			</div>
 		</main>
 
-		<footer class="d-flex position-absolute footer-style w-auto">
-			<img src="svg/footer-content.svg" alt="contenedor del footer" />
+		<footer class="d-flex footer-style">
+			<div class="img-footer d-flex position-absolute"  alt="contenedor del footer"></div>
 		</footer>
 
 		<script
