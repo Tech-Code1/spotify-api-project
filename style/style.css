@@ -9,6 +9,9 @@ body {
     background: linear-gradient(180deg, #7B0BA3 28.98%, #3200C0 100%);
 }
 
+html {
+    height: auto;
+}
 
 .img-header {
     background: url(../img/jpg/img-living-header.jpg);
@@ -92,7 +95,13 @@ p {
 
 .title-song {
     color: #fff;
-    font-size: 28px;
+    font-size: 24px;
+}
+
+@media (max-width: 756px) {
+    .title-song {
+        font-size: 20px;
+    }
 }
 
 h2 {

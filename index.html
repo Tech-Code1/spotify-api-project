@@ -13,7 +13,7 @@
 		<link rel="stylesheet" href="style/style.css" />
 		<title>Living</title>
 	</head>
-	<body>
+	<body class="d-flex position-relative flex-column">
 		<header class="header-style mb-5">
 			<div
 				class="
@@ -49,43 +49,46 @@
 				data-bs-touch="false"
 				data-bs-interval="false"
 			>
-				<div class="carousel-inner d-flex mx-5">
-					<div class="carousel-item active">
+				<div class="carousel-inner d-flex mx-5" id="contenedor">
+					 <div class="carousel-item active">
 						<div class="title-song-content text-center">
-							<h2 class="title-song py-2">titulo canción 1</h2>
+							<h2 class="title-song py-2" id="titleSong1">titulo canción 1</h2>
 							<audio
+							id="audio1"
 							class="d-flex position-absolute audio-content position-absolute"
 							src="audio/audio1.mp3"
 							controls
-						>
+						></audio>
 						</div>
-						<img src="img/jpg/img 1.png" class="img-carrousel w-100 img-fluid" alt="..." />
+						<img class="img-carrousel w-100 img-fluid" alt="..." id="img1"/>
 						
 							<source src="audio/audio1.mp3" />
-						</audio>
+						
 					</div>
 					<div class="carousel-item">
 						<div class="title-song-content text-center">
-							<h2 class="title-song py-2">titulo canción 2</h2>
+							<h2 class="title-song py-2" id="titleSong2">titulo canción 2</h2>
 							<audio
+							id="audio2"
 							class="d-flex position-absolute audio-content position-absolute"
 							src="audio/audio1.mp3"
 							controls
 						>
 						</div>
-						<img src="img/jpg/img 2.png" class="img-carrousel w-100 img-fluid" alt="..." />
+						<img class="img-carrousel w-100 img-fluid" alt="..." id="img2"/>
 					</div>
 					<div class="carousel-item text-center">
 						<div class="title-song-content">
-							<h2 class="title-song py-2">titulo canción 3</h2>
+							<h2 class="title-song py-2" id="titleSong3">titulo canción 3</h2>
 							<audio
+							id="audio3"
 							class="d-flex position-absolute audio-content position-absolute"
 							src="audio/audio1.mp3"
 							controls
 						>
 						</div>
-						<img src="img/jpg/img 3.png" class="img-carrousel w-100 img-fluid" alt="..." />
-					</div>
+						<img class="img-carrousel w-100 img-fluid" alt="..." id="img3"/>
+					</div> 
 				</div>
 
 				<div class="d-flex position-absolute content-btons w-100">
@@ -129,7 +132,7 @@
 		</main>
 
 		<footer class="d-flex footer-style">
-			<div class="img-footer d-flex position-absolute"  alt="contenedor del footer"></div>
+			<div class="img-footer d-flex position-absolute" alt="contenedor del footer"></div>
 		</footer>
 
 		<script
@@ -137,5 +140,6 @@
 			integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
 			crossorigin="anonymous"
 		></script>
+		<script src="js/spoty.js"></script>
 	</body>
 </html>
